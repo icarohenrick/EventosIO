@@ -1,0 +1,18 @@
+# FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
+
+### Estágio 1 - Obter o source e gerar o Build ###
+FROM microsoft/dotnet:2.2-runtime AS dotnet-builder
+WORKDIR /app
+COPY . /app
+RUN mkdir /publish
+# RUN dotnet restore src/Eventos.IO.Services.Api/Eventos.IO.Services.Api.csproj
+# RUN dotnet publish src/Eventos.IO.Services.Api/Eventos.IO.Services.Api.csproj -c Release -o /app/publish 
+
+### Estágio 2 - Subir a aplicação através dos binários copiados ###
+
+FROM microsoft/dotnet:2.2-runtime-bionic
+WORKDIR /app
+ENV ASPNETCORE_URLS http://*:8286
+EXPOSE 8286
+# COPY --from=dotnet-builder /app/publish .
+ENTRYPOINT ["dotnet", "Eventos.IO.Services.Api.dll"]

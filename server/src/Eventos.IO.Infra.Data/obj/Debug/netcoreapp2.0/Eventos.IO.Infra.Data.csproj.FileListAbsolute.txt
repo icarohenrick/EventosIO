@@ -1,0 +1,17 @@
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.deps.json
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.dll
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.pdb
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.dll
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.dll
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.pdb
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.pdb
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.csprojAssemblyReference.cache
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.AssemblyInfo.cs
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.csproj.CopyComplete
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.dll
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.pdb
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.runtimeconfig.json
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.runtimeconfig.dev.json

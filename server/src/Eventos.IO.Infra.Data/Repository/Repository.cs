@@ -1,0 +1,63 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using Eventos.IO.Domain.Core.Models;
+using Eventos.IO.Domain.Interfaces;
+using Eventos.IO.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
+
+namespace Eventos.IO.Infra.Data.Repository
+{
+    public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity<TEntity>
+    {
+        protected EventosContext Db;
+        protected DbSet<TEntity> Dbset;
+
+        protected Repository(EventosContext context)
+        {
+            Db = context;
+            this.Dbset = Db.Set<TEntity>();
+        }
+
+        public virtual void Adicionar(TEntity obj)
+        {
+            Dbset.Add(obj);
+        }
+
+        public virtual void Atualizar(TEntity obj)
+        {
+            Dbset.Update(obj);
+        }
+
+        public virtual IEnumerable<TEntity> Buscar(Expression<Func<TEntity, bool>> predicate)
+        {
+            return Dbset.AsNoTracking().Where(predicate);
+        }
+
+        public virtual TEntity ObterPorId(Guid id)
+        {
+            return Dbset.AsNoTracking().FirstOrDefault(t => t.Id == id);
+        }
+
+        public virtual IEnumerable<TEntity> ObterTodos()
+        {
+            return Dbset.AsNoTracking().ToList();
+        }
+
+        public virtual void Remover(Guid id)
+        {
+            Dbset.Remove(Dbset.Find(id));
+        }
+
+        public int SaveChanges()
+        {
+            return Db.SaveChanges();
+        }
+
+        public virtual void Dispose()
+        {
+            Db.Dispose();
+        } 
+    }
+}

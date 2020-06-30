@@ -1,0 +1,8 @@
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.deps.json
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.dll
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.pdb
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.AssemblyInfo.cs
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.dll
+C:\Users\mazza\Documents\Estudos\AspNetCore\projetos\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.pdb
